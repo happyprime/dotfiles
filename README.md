@@ -1,16 +1,8 @@
-# Jeremy's dotfiles
+# Happy Prime dotfiles
 
 The structure and many (most?) of the files in this repository are forked
-from [Zach Holman's dotfiles](https://github.com/holman/dotfiles). See his [post on the
-subject](http://zachholman.com/2010/08/dotfiles-are-meant-to-be-forked/).
-
-## Structure
-
-Everything's built around topic areas. If you're adding a new area to your
-forked dotfiles — say, "Java" — you can simply add a `java` directory and put
-files in there. Anything with an extension of `.zsh` will get automatically
-included into your shell. Anything with an extension of `.symlink` will get
-symlinked without extension into `$HOME` when you run `script/bootstrap`.
+from [Jeremy's dotfiles](github.com/jeremyfelt/dotfiles), which were in turn
+forked from [Zach Holman's dotfiles](https://github.com/holman/dotfiles).
 
 ### Components
 
@@ -54,12 +46,6 @@ this script in `bin/`.
 `reload!` is included to re-source new aliases, etc...
 
 ## Applications to install manually and other caveats.
-
-### App Store
-
-* **Slack**
-* **Harvest**
-* **Cyberduck**
 
 ### Download and install
 
