@@ -1,8 +1,9 @@
 The MIT License
 
-Copyright (c) Jeremy Felt, https://jeremyfelt.com
+Copyright (c) Happy Prime, https://happyprime.co
 
 Original files forked from Zach Holman's dotfiles, http://zachholman.com
+And then the entire thing was forked from Jeremy, https://jeremyfelt.com
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

@@ -39,6 +39,3 @@ do
 done
 
 unset config_files
-
-export PATH="$PATH:/usr/local/bin:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"

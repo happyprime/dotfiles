@@ -1,4 +1,0 @@
-#!/bin/sh
-#
-mkdir -p ~/Documents/Archive/
-find $HOME/Desktop/*.* -mmin +480 -exec mv {} $HOME/Documents/Archive/ \;

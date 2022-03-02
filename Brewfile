@@ -1,7 +1,4 @@
-cask_args appdir: '/Applications'
-
 tap 'homebrew/bundle'
-tap 'saulpw/vd'             # Used by visidata
 
 brew 'ack'
 brew 'bash-completion'
@@ -14,19 +11,5 @@ brew 'libmemcache'
 brew 'mariadb'
 brew 'memcached'
 brew 'node'
-brew 'openssl'
-brew 'python'
-brew 'subversion'
-brew 'visidata'
-brew 'watchman'
 brew 'wget'
 brew 'z'
-
-cask 'alfred'
-cask 'caffeine'
-cask 'flux'
-cask 'insomnia'
-cask 'iterm2'
-cask 'sequel-pro'
-cask 'sublime-text'
-cask 'tunnelblick'

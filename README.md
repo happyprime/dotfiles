@@ -35,7 +35,7 @@ There's a few special files in the hierarchy.
 Run this:
 
 ```sh
-git clone https://github.com/jeremyfelt/dotfiles.git ~/dotfiles
+git clone https://github.com/happyprime/dotfiles.git ~/dotfiles
 cd ~/dotfiles
 script/bootstrap
 ```
@@ -59,28 +59,15 @@ this script in `bin/`.
 
 * **Slack**
 * **Harvest**
-* **GarageBand**
 * **Cyberduck**
-* **LastPass**
 
 ### Download and install
 
-* **Firefox**
 * **Code**
     * After installation, open VS Code and use the command palette to install the shell command.
-    * Install One Monokai theme: `code --install-extension azemoh.one-monokai`
     * Install intelephense: `code --install-extension bmewburn.vscode-intelephense-client`
 	* Install WP Hooks: `code --install-extension johnbillion.vscode-wordpress-hooks`
 	* Install PHP Debug: `code --install-extension xdebug.php-debug`
-* **Zoom**
-* **Spotify**
-* **LICEcap** https://www.cockos.com/licecap/
-* **Calibre** https://calibre-ebook.com/download_osx
-* **Sketch**
-* **Obsidian**
-* **Sonos**
-* **Chrome**
-* **Google Drive**
 
 ### Caveats
 
@@ -91,8 +78,3 @@ this script in `bin/`.
 	* Inside a `~/Development` directory, `valet park`.
 * **Xcode** - I don't really understand the relationship between Xcode and the terminal, but strange stuff happens and then I find myself installing this.
 	* I really thought `xcode-select --install` was supposed to take care of things, but it likely does cd /usrnot. /shrug
-* `zsh compinit: insecure directories, run compaudit for list.`
-    * I was getting this toward the end of installation and when I ran `compaudit` was told that `/usr/local/share/zsh` was insecure.
-	* I ran `sudo chmod -R 755 /usr/local/share/zsh`, which removed the group write permissions, and it stopped showing in `compaudit`.
-	* Before doing that I had also tried `sudo chmod -R 755 /usr/local/share/zsh/site-functions`, but failed to check permissions or `compaudit` beforehand.
-	* After restarting zsh, my auto completion issue (`_complete:96: bad math expression: operand expected at end of string`) was resolved as well.

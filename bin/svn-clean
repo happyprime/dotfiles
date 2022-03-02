@@ -1,4 +1,0 @@
-#!/bin/sh
-#
-# Clean an SVN directory
-svn revert -R * && find . -name "*.orig" -delete && find . -name "*.rej" -delete
